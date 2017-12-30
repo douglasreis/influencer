@@ -6,7 +6,7 @@ using InfluencerApp.Domain;
 using QuickApp.ViewModels;
 using AutoMapper;
 using Microsoft.Extensions.Logging;
-using QuickApp.Helpers;
+using InfluencerApp.Web.Helpers;
 
 namespace QuickApp.Controllers
 {

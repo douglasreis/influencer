@@ -1,5 +1,5 @@
 ﻿
-namespace QuickApp.Policies
+namespace InfluencerApp.Web.Policies
 {
     public class AuthPolicies
     {

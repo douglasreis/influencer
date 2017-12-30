@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Security.Claims;
 
-namespace QuickApp.Helpers
+namespace InfluencerApp.Web.Helpers
 {
     public static class Utilities
     {

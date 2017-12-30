@@ -1,4 +1,4 @@
-﻿using QuickApp.Helpers;
+﻿using InfluencerApp.Web.Helpers;
 using System.ComponentModel.DataAnnotations;
 
 namespace QuickApp.ViewModels

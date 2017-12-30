@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using System.Threading.Tasks;
 
-namespace QuickApp.Policies
+namespace InfluencerApp.Web.Policies
 {
     public class ViewRoleByNameRequirement : IAuthorizationRequirement
     {

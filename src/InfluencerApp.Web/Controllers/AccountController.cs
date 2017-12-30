@@ -9,8 +9,8 @@ using QuickApp.ViewModels;
 using AutoMapper;
 using InfluencerApp.Domain.Models;
 using InfluencerApp.Domain.Core.Interfaces;
-using QuickApp.Policies;
-using QuickApp.Helpers;
+using InfluencerApp.Web.Policies;
+using InfluencerApp.Web.Helpers;
 using Microsoft.AspNetCore.JsonPatch;
 using InfluencerApp.Domain.Core;
 

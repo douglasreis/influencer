@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace QuickApp.Helpers
+namespace InfluencerApp.Web.Helpers
 {
     public static class LoggingEvents
     {

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 
-namespace QuickApp.Helpers
+namespace InfluencerApp.Web.Helpers
 {
     public static class Extensions
     {

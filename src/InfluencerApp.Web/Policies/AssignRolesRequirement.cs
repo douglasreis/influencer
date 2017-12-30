@@ -4,7 +4,7 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace QuickApp.Policies
+namespace InfluencerApp.Web.Policies
 {
     public class AssignRolesRequirement : IAuthorizationRequirement
     {

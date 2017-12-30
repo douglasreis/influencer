@@ -1,10 +1,10 @@
 ﻿using InfluencerApp.Domain.Core;
-using QuickApp.Helpers;
+using InfluencerApp.Web.Helpers;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace QuickApp.Policies
+namespace InfluencerApp.Web.Policies
 {
     public class ManageUserByIdRequirement : IAuthorizationRequirement
     {
