@@ -1,5 +1,5 @@
 ﻿
-namespace QuickApp.ViewModels
+namespace InfluencerApp.Web.ViewModels
 {
     public class OrderViewModel
     {

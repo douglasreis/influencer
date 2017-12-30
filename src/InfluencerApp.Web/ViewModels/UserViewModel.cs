@@ -1,7 +1,7 @@
 ﻿using InfluencerApp.Web.Helpers;
 using System.ComponentModel.DataAnnotations;
 
-namespace QuickApp.ViewModels
+namespace InfluencerApp.Web.ViewModels
 {
     public class UserViewModel
     {

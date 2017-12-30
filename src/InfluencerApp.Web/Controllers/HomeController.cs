@@ -3,7 +3,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 
-namespace QuickApp.Controllers
+namespace InfluencerApp.Web.Controllers
 {
     public class HomeController : Controller
     {

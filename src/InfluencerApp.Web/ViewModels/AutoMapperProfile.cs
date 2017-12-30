@@ -3,7 +3,7 @@ using InfluencerApp.Domain.Core;
 using InfluencerApp.Domain.Models;
 using Microsoft.AspNetCore.Identity;
 
-namespace QuickApp.ViewModels
+namespace InfluencerApp.Web.ViewModels
 {
     public class AutoMapperProfile : Profile
     {

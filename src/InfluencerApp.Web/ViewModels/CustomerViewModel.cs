@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using System.Collections.Generic;
 
-namespace QuickApp.ViewModels
+namespace InfluencerApp.Web.ViewModels
 {
     public class CustomerViewModel
     {

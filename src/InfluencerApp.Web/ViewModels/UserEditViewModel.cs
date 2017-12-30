@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace QuickApp.ViewModels
+namespace InfluencerApp.Web.ViewModels
 {
     public class UserEditViewModel : UserViewModel
     {

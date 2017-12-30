@@ -17,7 +17,7 @@ using System.Security.Claims;
 // For more information on enabling Web API for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
 
-namespace QuickApp.Controllers
+namespace InfluencerApp.Web.Controllers
 {
     public class AuthorizationController : Controller
     {

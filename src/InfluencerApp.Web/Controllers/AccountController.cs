@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
-using QuickApp.ViewModels;
+using InfluencerApp.Web.ViewModels;
 using AutoMapper;
 using InfluencerApp.Domain.Models;
 using InfluencerApp.Domain.Core.Interfaces;
@@ -14,7 +14,7 @@ using InfluencerApp.Web.Helpers;
 using Microsoft.AspNetCore.JsonPatch;
 using InfluencerApp.Domain.Core;
 
-namespace QuickApp.Controllers
+namespace InfluencerApp.Web.Controllers
 {
     [Authorize]
     [Route("api/[controller]")]

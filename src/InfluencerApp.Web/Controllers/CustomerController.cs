@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using InfluencerApp.Domain;
-using QuickApp.ViewModels;
+using InfluencerApp.Web.ViewModels;
 using AutoMapper;
 using Microsoft.Extensions.Logging;
 using InfluencerApp.Web.Helpers;

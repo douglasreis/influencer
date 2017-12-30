@@ -1,4 +1,4 @@
-﻿using QuickApp.ViewModels;
+﻿using InfluencerApp.Web.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 

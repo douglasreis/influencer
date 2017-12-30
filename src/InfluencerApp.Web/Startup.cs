@@ -15,7 +15,7 @@ using Newtonsoft.Json;
 using InfluencerApp.Domain.Core;
 using InfluencerApp.Domain.Core.Interfaces;
 using Microsoft.AspNetCore.Authorization;
-using QuickApp.ViewModels;
+using InfluencerApp.Web.ViewModels;
 using InfluencerApp.Web.Helpers;
 using InfluencerApp.Web.Policies;
 using AspNet.Security.OpenIdConnect.Primitives;
