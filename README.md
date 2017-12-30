@@ -1,16 +1,8 @@
-# **QuickApp** - ASPNET Core / Angular5 startup project template
-[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/emonney/QuickApp/blob/master/LICENSE)
+# **InfluencerApp** - ASPNET Core / Angular5 startup project template
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/douglasreis/influencer/blob/master/LICENSE)
 
 A startup **Angular5 / ASP.NET Core** (cross-platform ) **project template** with an end-to-end login, user and role management implementation.
 As well as other common functionalities for **Quick Application Development**.
-
-[FOLLOW ME](https://twitter.com/kommand) on twitter for important updates
-
-For the older asp.net core 1.x version: [Download](https://github.com/emonney/QuickApp-VSIX/releases/tag/v1.5")
-
-[live demo](http://quickapp.ebenmonney.com) / [downloadable demo](https://github.com/emonney/tempa/raw/master/QuickApp-PublishOutput.zip)
-
-[![QuickApp Demo](https://github.com/emonney/QuickApp/blob/9b122b7f3c38121699d3ec41b700474e192abe37/QuickApp.gif?raw=true)](https://www.youtube.com/watch?v=Wuh7NIZ96jA)
 
 ## This application consists of:
 
@@ -44,10 +36,7 @@ For the older asp.net core 1.x version: [Download](https://github.com/emonney/Qu
 
 ## Installation
 
-*   [OPTION 1] Clone the [Git Repository](https://github.com/emonney/QuickApp.git) and edit with your favorite editor. e.g. Visual Studio, Visual Studio Code
-*   [OPTION 2] Install Project template from the [Visual Studio Gallery](https://marketplace.visualstudio.com/items?itemName=adentum.QuickApp-ASPNETCoreAngularXProjectTemplate) and follow the usual File -> New Project -> Web -> QuickApp - to create a new Project from this template.
-    Lunch with `F5` or `Ctrl+F5` (The usual way)
-*   [OPTION 3] Yeoman generator package coming soon...
+*   Coming soon...
 
 
 ## Installation Notes
@@ -66,9 +55,6 @@ For the older asp.net core 1.x version: [Download](https://github.com/emonney/Qu
     3. run 'npm run dev-build' from the project with package.json - Build webpack vendor packages  
     4. Try running the application again - Test to make sure it all works  
     
-    *When I say "run from the project folder" I mean run the commands on the command line from those folders  
-    If any step fails open an [issue](https://github.com/emonney/QuickApp/issues) on github and I'll help fix it.
-*   You can also get a personal trainer on the technologies used in this template for 100USD/Month. Email [contact@ebenmonney.com](mailto:contact@ebenmonney.com)  
 
 
 ## Login
@@ -76,37 +62,21 @@ For the older asp.net core 1.x version: [Download](https://github.com/emonney/Qu
 LOGIN WITH USERNAME OR EMAIL ADDRESS
 > * **Default Administrator Account**
 >   * Username: admin
->   * Email:    admin@ebenmonney.com
 >   * Password: tempP@ss123
 > * **Default Standard Account**
 >   * Username: user
->   * Email:    user@ebenmonney.com
 >   * Password: tempP@ss123
 
 
 ## Documentation
 
-*   [Overview of QuickApp](http://ebenmonney.com/quickapp)
 *   [Conceptual overview of what is ASP.NET Core](https://go.microsoft.com/fwlink/?LinkId=518008)
 *   [Angular5 documentation overview](http://angular.io/docs/ts/latest/guide)
 *   [Working with Data](https://go.microsoft.com/fwlink/?LinkId=398602)
 *   [An introduction to webpack](https://webpack.js.org/guides/get-started/)
 
 
-## Contribution
-
-QuickApp is actively maintained by [Ebenezer Monney](https://github.com/emonney) on [GitHub](https://github.com/emonney/QuickApp). You can support it by
-*   Submitting your changes/improvements/features using pull requests
-*   Suggesting ideas or areas of improvements
-*   Encouraging the developers by rating it/starring it
-*   Linking to it and recommending it to others
-*   [Making a donation](https://www.paypal.me/emonney)
-
-
 ## License
 
-Released under the [MIT License](https://github.com/emonney/QuickApp/blob/master/LICENSE).
+Released under the [MIT License](https://github.com/douglasreis/influencer/blob/master/LICENSE).
 
-[YOUR FEEDBACK](mailto:contact@ebenmonney.com) | [FOLLOW ME](https://twitter.com/kommand)
-
-### _**If you found this template useful, please take a minute to [rate it](https://marketplace.visualstudio.com/items?itemName=adentum.QuickApp-ASPNETCoreAngularXProjectTemplate#review-details). Appreciated!**_
