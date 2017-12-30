@@ -1,13 +1,4 @@
-﻿// ======================================
-// Author: Ebenezer Monney
-// Email:  info@ebenmonney.com
-// Copyright (c) 2017 www.ebenmonney.com
-// 
-// ==> Gun4Hire: contact@ebenmonney.com
-// ======================================
-
-import { PermissionValues } from './permission.model';
-
+﻿import { PermissionValues } from './permission.model';
 
 export interface LoginResponse {
     access_token: string;
@@ -15,7 +6,6 @@ export interface LoginResponse {
     refresh_token: string;
     expires_in: number;
 }
-
 
 export interface IdToken {
     sub: string;

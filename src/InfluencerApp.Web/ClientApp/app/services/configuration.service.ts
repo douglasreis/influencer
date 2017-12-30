@@ -1,19 +1,9 @@
-﻿// ======================================
-// Author: Ebenezer Monney
-// Email:  info@ebenmonney.com
-// Copyright (c) 2017 www.ebenmonney.com
-// 
-// ==> Gun4Hire: contact@ebenmonney.com
-// ======================================
-
-import { Injectable } from '@angular/core';
+﻿import { Injectable } from '@angular/core';
 
 import { AppTranslationService } from './app-translation.service';
 import { LocalStoreManager } from './local-store-manager.service';
 import { DBkeys } from './db-Keys';
 import { Utilities } from './utilities';
-
-
 
 type UserConfiguration = {
     language: string,

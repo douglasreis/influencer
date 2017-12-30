@@ -42,8 +42,8 @@ namespace InfluencerApp.Domain
                 await EnsureRoleAsync(adminRoleName, "Default administrator", ApplicationPermissions.GetAllPermissionValues());
                 await EnsureRoleAsync(userRoleName, "Default user", new string[] { });
 
-                await CreateUserAsync("admin", "tempP@ss123", "Inbuilt Administrator", "admin@ebenmonney.com", "+1 (123) 000-0000", new string[] { adminRoleName });
-                await CreateUserAsync("user", "tempP@ss123", "Inbuilt Standard User", "user@ebenmonney.com", "+1 (123) 000-0001", new string[] { userRoleName });
+                await CreateUserAsync("admin", "tempP@ss123", "Inbuilt Administrator", "admin@influencerapp.com", "+1 (123) 000-0000", new string[] { adminRoleName });
+                await CreateUserAsync("user", "tempP@ss123", "Inbuilt Standard User", "user@influencerapp.com", "+1 (123) 000-0001", new string[] { userRoleName });
 
                 _logger.LogInformation("Inbuilt account generation completed");
             }
@@ -54,8 +54,8 @@ namespace InfluencerApp.Domain
 
                 Customer cust_1 = new Customer
                 {
-                    Name = "Ebenezer Monney",
-                    Email = "contact@ebenmonney.com",
+                    Name = "Influencer App",
+                    Email = "contact@influencerapp.com",
                     Gender = Gender.Male,
                     DateCreated = DateTime.UtcNow,
                     DateModified = DateTime.UtcNow

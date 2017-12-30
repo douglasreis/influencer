@@ -1,12 +1,4 @@
-﻿// ======================================
-// Author: Ebenezer Monney
-// Email:  info@ebenmonney.com
-// Copyright (c) 2017 www.ebenmonney.com
-// 
-// ==> Gun4Hire: contact@ebenmonney.com
-// ======================================
-
-using MailKit.Net.Smtp;
+﻿using MailKit.Net.Smtp;
 using MimeKit;
 using System;
 using Microsoft.Extensions.Logging;
@@ -24,12 +16,9 @@ namespace QuickApp.Helpers
         Task<(bool success, string errorMsg)> SendEmailAsync(string senderName, string senderEmail, string recepientName, string recepientEmail, string subject, string body, SmtpConfig config = null, bool isHtml = true);
     }
 
-
-
     public class Emailer : IEmailer
     {
         private SmtpConfig _config;
-
 
         public Emailer(IOptions<SmtpConfig> config)
         {
@@ -57,7 +46,6 @@ namespace QuickApp.Helpers
 
             return await SendEmailAsync(from, new MailboxAddress[] { to }, subject, body, config, isHtml);
         }
-
 
 
         public async Task<(bool success, string errorMsg)> SendEmailAsync(MailboxAddress sender, MailboxAddress[] recepients, string subject, string body, SmtpConfig config = null, bool isHtml = true)
